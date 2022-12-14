@@ -29,7 +29,7 @@ def main():
         sum += random_int
 
     # Prints the average of the ten numbers
-    print(f"The average of the {constants.MAX_ARRAY_SIZE} numbers is {sum/2}.")
+    print(f"The average of the {constants.MAX_ARRAY_SIZE} numbers is {sum / constants.MAX_ARRAY_SIZE}.")
 
 
 if __name__ == "__main__":
